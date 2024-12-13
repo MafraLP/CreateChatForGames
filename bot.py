@@ -1,8 +1,3 @@
-import sys
-import os
-
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'dependencies'))
-
 import discord
 from discord.ext import commands  # Certifique-se de que isso está presente
 import os
