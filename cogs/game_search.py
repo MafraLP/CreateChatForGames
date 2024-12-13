@@ -47,8 +47,8 @@ class GameSearchCog(commands.Cog):
             if existing_channel:
                 await interaction.response.send_message(f"O canal para o jogo {game_name} já existe: {existing_channel.mention}", ephemeral=True)
             else:
-                await guild.create_text_channel(game_name, category=category)
-                await interaction.response.send_message(f"Canal para o jogo {game_name} foi criado com sucesso!", ephemeral=True)
+                new_channel = await guild.create_text_channel(game_name, category=category)
+                await interaction.response.send_message(f"Canal para o jogo {new_channel.mention} foi criado com sucesso!", ephemeral=True)
 
             await interaction.message.delete()
 
