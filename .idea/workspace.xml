@@ -4,15 +4,494 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18b50655-03a0-4d2f-b54d-ad1099884240" name="Changes" comment="create env example">
+    <list default="true" id="18b50655-03a0-4d2f-b54d-ad1099884240" name="Changes" comment="impot dependencies to project">
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohappyeyeballs-2.4.4.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohappyeyeballs-2.4.4.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohappyeyeballs-2.4.4.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohappyeyeballs-2.4.4.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohappyeyeballs-2.4.4.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohappyeyeballs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohappyeyeballs/_staggered.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohappyeyeballs/impl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohappyeyeballs/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohappyeyeballs/types.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohappyeyeballs/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp-3.11.10.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp-3.11.10.dist-info/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp-3.11.10.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp-3.11.10.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp-3.11.10.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp-3.11.10.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/.hash/_cparser.pxd.hash" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/.hash/_find_header.pxd.hash" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/.hash/_http_parser.pyx.hash" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/.hash/_http_writer.pyx.hash" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/.hash/hdrs.py.hash" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/_cparser.pxd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/_find_header.pxd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/_headers.pxi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/_http_parser.cpython-39-darwin.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/_http_parser.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/_http_writer.cpython-39-darwin.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/_http_writer.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/_websocket/.hash/mask.pxd.hash" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/_websocket/.hash/mask.pyx.hash" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/_websocket/.hash/reader_c.pxd.hash" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/_websocket/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/_websocket/helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/_websocket/mask.cpython-39-darwin.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/_websocket/mask.pxd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/_websocket/mask.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/_websocket/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/_websocket/reader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/_websocket/reader_c.cpython-39-darwin.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/_websocket/reader_c.pxd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/_websocket/reader_c.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/_websocket/reader_py.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/_websocket/writer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/abc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/base_protocol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/client_exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/client_proto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/client_reqrep.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/client_ws.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/compression_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/connector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/cookiejar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/formdata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/hdrs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/http.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/http_exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/http_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/http_websocket.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/http_writer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/multipart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/payload.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/payload_streamer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/pytest_plugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/resolver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/streams.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/tcp_helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/test_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/tracing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/typedefs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/web.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/web_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/web_exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/web_fileresponse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/web_log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/web_middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/web_protocol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/web_request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/web_response.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/web_routedef.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/web_runner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/web_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/web_urldispatcher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/web_ws.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiohttp/worker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiosignal-1.3.1.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiosignal-1.3.1.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiosignal-1.3.1.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiosignal-1.3.1.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiosignal-1.3.1.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiosignal-1.3.1.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiosignal/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiosignal/__init__.pyi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/aiosignal/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/async_timeout-5.0.1.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/async_timeout-5.0.1.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/async_timeout-5.0.1.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/async_timeout-5.0.1.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/async_timeout-5.0.1.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/async_timeout-5.0.1.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/async_timeout-5.0.1.dist-info/zip-safe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/async_timeout/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/async_timeout/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/attr/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/attr/__init__.pyi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/attr/_cmp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/attr/_cmp.pyi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/attr/_compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/attr/_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/attr/_funcs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/attr/_make.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/attr/_next_gen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/attr/_typing_compat.pyi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/attr/_version_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/attr/_version_info.pyi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/attr/converters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/attr/converters.pyi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/attr/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/attr/exceptions.pyi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/attr/filters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/attr/filters.pyi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/attr/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/attr/setters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/attr/setters.pyi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/attr/validators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/attr/validators.pyi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/attrs-24.2.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/attrs-24.2.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/attrs-24.2.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/attrs-24.2.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/attrs-24.2.0.dist-info/licenses/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/attrs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/attrs/__init__.pyi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/attrs/converters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/attrs/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/attrs/filters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/attrs/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/attrs/setters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/attrs/validators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/bin/dotenv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/bin/normalizer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/certifi-2024.8.30.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/certifi-2024.8.30.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/certifi-2024.8.30.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/certifi-2024.8.30.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/certifi-2024.8.30.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/certifi-2024.8.30.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/certifi/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/certifi/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/certifi/cacert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/certifi/core.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/certifi/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/charset_normalizer-3.4.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/charset_normalizer-3.4.0.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/charset_normalizer-3.4.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/charset_normalizer-3.4.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/charset_normalizer-3.4.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/charset_normalizer-3.4.0.dist-info/entry_points.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/charset_normalizer-3.4.0.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/charset_normalizer/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/charset_normalizer/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/charset_normalizer/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/charset_normalizer/cd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/charset_normalizer/cli/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/charset_normalizer/cli/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/charset_normalizer/constant.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/charset_normalizer/legacy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/charset_normalizer/md.cpython-39-darwin.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/charset_normalizer/md.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/charset_normalizer/md__mypyc.cpython-39-darwin.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/charset_normalizer/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/charset_normalizer/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/charset_normalizer/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/charset_normalizer/version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord.py-2.4.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord.py-2.4.0.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord.py-2.4.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord.py-2.4.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord.py-2.4.0.dist-info/REQUESTED" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord.py-2.4.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord.py-2.4.0.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/_types.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/abc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/activity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/app_commands/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/app_commands/checks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/app_commands/commands.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/app_commands/errors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/app_commands/installs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/app_commands/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/app_commands/namespace.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/app_commands/transformers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/app_commands/translator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/app_commands/tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/appinfo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/asset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/audit_logs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/automod.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/backoff.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/bin/libopus-0.x64.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/bin/libopus-0.x86.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/channel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/colour.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/components.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/context_managers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/embeds.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/emoji.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/enums.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/errors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/ext/commands/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/ext/commands/_types.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/ext/commands/bot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/ext/commands/cog.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/ext/commands/context.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/ext/commands/converter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/ext/commands/cooldowns.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/ext/commands/core.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/ext/commands/errors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/ext/commands/flags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/ext/commands/help.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/ext/commands/hybrid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/ext/commands/parameters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/ext/commands/view.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/ext/tasks/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/flags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/gateway.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/guild.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/http.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/integrations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/interactions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/invite.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/member.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/mentions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/message.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/mixins.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/object.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/oggparse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/opus.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/partial_emoji.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/permissions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/player.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/poll.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/raw_models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/reaction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/role.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/scheduled_event.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/shard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/sku.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/stage_instance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/state.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/sticker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/team.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/template.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/threads.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/types/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/types/activity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/types/appinfo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/types/audit_log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/types/automod.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/types/channel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/types/command.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/types/components.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/types/embed.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/types/emoji.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/types/gateway.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/types/guild.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/types/integration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/types/interactions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/types/invite.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/types/member.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/types/message.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/types/poll.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/types/role.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/types/scheduled_event.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/types/sku.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/types/snowflake.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/types/sticker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/types/team.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/types/template.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/types/threads.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/types/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/types/voice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/types/webhook.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/types/welcome_screen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/types/widget.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/ui/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/ui/button.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/ui/dynamic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/ui/item.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/ui/modal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/ui/select.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/ui/text_input.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/ui/view.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/voice_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/voice_state.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/webhook/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/webhook/async_.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/webhook/sync.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/welcome_screen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/discord/widget.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/dotenv/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/dotenv/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/dotenv/cli.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/dotenv/ipython.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/dotenv/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/dotenv/parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/dotenv/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/dotenv/variables.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/dotenv/version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/frozenlist-1.5.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/frozenlist-1.5.0.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/frozenlist-1.5.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/frozenlist-1.5.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/frozenlist-1.5.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/frozenlist-1.5.0.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/frozenlist/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/frozenlist/__init__.pyi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/frozenlist/_frozenlist.cpython-39-darwin.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/frozenlist/_frozenlist.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/frozenlist/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/idna-3.10.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/idna-3.10.dist-info/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/idna-3.10.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/idna-3.10.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/idna-3.10.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/idna/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/idna/codec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/idna/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/idna/core.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/idna/idnadata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/idna/intranges.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/idna/package_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/idna/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/idna/uts46data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/multidict-6.1.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/multidict-6.1.0.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/multidict-6.1.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/multidict-6.1.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/multidict-6.1.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/multidict-6.1.0.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/multidict/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/multidict/__init__.pyi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/multidict/_abc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/multidict/_compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/multidict/_multidict.cpython-39-darwin.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/multidict/_multidict_base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/multidict/_multidict_py.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/multidict/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/propcache-0.2.1.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/propcache-0.2.1.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/propcache-0.2.1.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/propcache-0.2.1.dist-info/NOTICE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/propcache-0.2.1.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/propcache-0.2.1.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/propcache-0.2.1.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/propcache/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/propcache/_helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/propcache/_helpers_c.cpython-39-darwin.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/propcache/_helpers_c.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/propcache/_helpers_py.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/propcache/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/propcache/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/python_dotenv-1.0.1.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/python_dotenv-1.0.1.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/python_dotenv-1.0.1.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/python_dotenv-1.0.1.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/python_dotenv-1.0.1.dist-info/REQUESTED" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/python_dotenv-1.0.1.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/python_dotenv-1.0.1.dist-info/entry_points.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/python_dotenv-1.0.1.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/requests-2.32.3.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/requests-2.32.3.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/requests-2.32.3.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/requests-2.32.3.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/requests-2.32.3.dist-info/REQUESTED" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/requests-2.32.3.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/requests-2.32.3.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/requests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/requests/__version__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/requests/_internal_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/requests/adapters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/requests/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/requests/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/requests/certs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/requests/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/requests/cookies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/requests/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/requests/help.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/requests/hooks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/requests/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/requests/packages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/requests/sessions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/requests/status_codes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/requests/structures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/requests/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/typing_extensions-4.12.2.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/typing_extensions-4.12.2.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/typing_extensions-4.12.2.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/typing_extensions-4.12.2.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/typing_extensions-4.12.2.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/typing_extensions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/urllib3-2.2.3.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/urllib3-2.2.3.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/urllib3-2.2.3.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/urllib3-2.2.3.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/urllib3-2.2.3.dist-info/licenses/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/urllib3/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/urllib3/_base_connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/urllib3/_collections.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/urllib3/_request_methods.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/urllib3/_version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/urllib3/connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/urllib3/connectionpool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/urllib3/contrib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/urllib3/contrib/emscripten/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/urllib3/contrib/emscripten/connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/urllib3/contrib/emscripten/emscripten_fetch_worker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/urllib3/contrib/emscripten/fetch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/urllib3/contrib/emscripten/request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/urllib3/contrib/emscripten/response.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/urllib3/contrib/pyopenssl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/urllib3/contrib/socks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/urllib3/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/urllib3/fields.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/urllib3/filepost.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/urllib3/http2/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/urllib3/http2/connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/urllib3/http2/probe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/urllib3/poolmanager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/urllib3/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/urllib3/response.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/urllib3/util/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/urllib3/util/connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/urllib3/util/proxy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/urllib3/util/request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/urllib3/util/response.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/urllib3/util/retry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/urllib3/util/ssl_.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/urllib3/util/ssl_match_hostname.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/urllib3/util/ssltransport.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/urllib3/util/timeout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/urllib3/util/url.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/urllib3/util/util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/urllib3/util/wait.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/yarl-1.18.3.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/yarl-1.18.3.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/yarl-1.18.3.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/yarl-1.18.3.dist-info/NOTICE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/yarl-1.18.3.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/yarl-1.18.3.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/yarl-1.18.3.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/yarl/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/yarl/_parse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/yarl/_path.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/yarl/_query.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/yarl/_quoters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/yarl/_quoting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/yarl/_quoting_c.cpython-39-darwin.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/yarl/_quoting_c.pyi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/yarl/_quoting_c.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/yarl/_quoting_py.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/yarl/_url.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies/yarl/py.typed" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cogs/game_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/game_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -33,20 +512,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Volumes/SSDExterno/CreateChatForGames&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Volumes/SSDExterno/CreateChatForGames",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -94,7 +574,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1734038675896</updated>
-      <workItem from="1734038678122" duration="12655000" />
+      <workItem from="1734038678122" duration="13501000" />
+      <workItem from="1734056768801" duration="308000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -120,7 +601,23 @@
       <option name="project" value="LOCAL" />
       <updated>1734052010298</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="create virtual env">
+      <option name="closed" value="true" />
+      <created>1734056462086</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1734056462086</updated>
+    </task>
+    <task id="LOCAL-00005" summary="remove virtual env">
+      <option name="closed" value="true" />
+      <created>1734056891273</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1734056891273</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +626,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="create env example" />
-    <option name="LAST_COMMIT_MESSAGE" value="create env example" />
+    <MESSAGE value="create virtual env" />
+    <MESSAGE value="remove virtual env" />
+    <MESSAGE value="impot dependencies to project" />
+    <option name="LAST_COMMIT_MESSAGE" value="impot dependencies to project" />
   </component>
 </project>
