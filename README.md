@@ -61,6 +61,8 @@ DISCORD_CATEGORY=your_discord_category_id
 2. Invite the bot to your Discord server with appropriate permissions
 3. Create a dedicated text channel for the bot commands
 
+> **Note**: For detailed instructions on creating and deploying your Discord bot, please refer to the official guides in the [Discord Developer Portal](https://discord.com/developers/docs/intro).
+
 ### Usage
 
 1. Use the `/new [game_name]` command in the dedicated bot channel
@@ -128,6 +130,8 @@ DISCORD_CATEGORY=id_da_categoria_discord
 
 2. Convide o bot para o seu servidor Discord com as permissões adequadas
 3. Crie um canal de texto dedicado para os comandos do bot
+
+> **Nota**: Para instruções detalhadas sobre como criar e fazer deploy do seu bot Discord, consulte os guias oficiais no [Portal de Desenvolvedores do Discord](https://discord.com/developers/docs/intro).
 
 ### Uso
 
